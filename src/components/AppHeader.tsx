@@ -15,9 +15,9 @@ const AppHeader: React.FC = () => {
   ).length;
   
   return (
-    <header className="bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-800 dark:to-teal-900 text-white shadow-lg">
+    <header className="bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-800 dark:to-teal-900 text-white shadow-lg pt-safe">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-white/10 rounded-lg">
               <Refrigerator className="h-8 w-8" />

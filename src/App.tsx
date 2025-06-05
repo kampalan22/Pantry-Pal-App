@@ -54,7 +54,7 @@ const AppContent: React.FC = () => {
     : undefined;
 
   return (
-    <div className="min-h-screen flex flex-col dark:bg-slate-900">
+    <div className="min-h-screen flex flex-col dark:bg-slate-900 pt-safe">
       <AppHeader />
       
       <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-8 max-w-6xl">
